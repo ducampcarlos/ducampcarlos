@@ -141,8 +141,6 @@ flowchart LR
 
 <img src="https://streak-stats.demolab.com?user=ducampcarlos&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ducampcarlos&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph" width="100%" />
-
 </div>
 
 ---
