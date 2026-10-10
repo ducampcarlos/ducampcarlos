@@ -17,7 +17,8 @@
 - 🔧 I bridge **developers, servers and clients**: I make sure what gets built actually runs well in production
 - 🤖 I use **Claude Code** daily as a pair-programmer, auditor and automation engine
 - 🚀 Currently focused on web projects, security hardening, integrations and automation
-- 📫 Reach me: **[your-email@example.com](mailto:your-email@example.com)**
+- 🎮 Game portfolio: **[ducampcarlos.carrd.co](https://ducampcarlos.carrd.co/)**
+- 📫 Reach me: **[ducampcarlos@gmail.com](mailto:ducampcarlos@gmail.com)**
 
 ---
 
@@ -153,11 +154,12 @@ flowchart LR
 | **Liftest** | Game project in active development, built with Claude Code 🎮 | `Game dev` |
 | **[bidcom-frontend-challenge](https://github.com/ducampcarlos/bidcom-frontend-challenge)** | Front-end technical challenge | `Front-end` |
 | **[nimble-challenge](https://github.com/ducampcarlos/nimble-challenge)** | Technical challenge | `Web` |
-| **[AI-Bible-Companion-Deploy](https://github.com/ducampcarlos/AI-Bible-Companion-Deploy)** | AI-powered companion app, deployed | `AI` `Web` |
 | **[PatagoniaJam](https://github.com/ducampcarlos/PatagoniaJam)** | Game built for the Patagonia Game Jam 🇦🇷 | `Unity` `C#` |
 | **[Dodging-Dog](https://github.com/ducampcarlos/Dodging-Dog)** | My own take on the Dodging Dog game | `Unity` `C#` |
 | **[Arkaless](https://github.com/ducampcarlos/Arkaless)** · **[Endless-Runner](https://github.com/ducampcarlos/Endless-Runner)** · **[Tappy-Ball](https://github.com/ducampcarlos/Tappy-Ball)** | Small arcade games and prototypes | `Unity` `C#` |
 | **[Node-rest-api](https://github.com/ducampcarlos/Node-rest-api)** | REST API practice project | `Node.js` |
+
+🎮 **More games and prototypes in my portfolio → [ducampcarlos.carrd.co](https://ducampcarlos.carrd.co/)**
 
 > Most of my professional work (fintech, e-commerce, hosting and security) lives in private repos and client environments, so it's described above but not linked.
 
@@ -173,8 +175,9 @@ flowchart LR
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-a-ducamp-760ab7191/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-ducamp-760ab7191/)
+[![Game Portfolio](https://img.shields.io/badge/Game_Portfolio-1a1a2e?style=for-the-badge&logo=itchdotio&logoColor=white)](https://ducampcarlos.carrd.co/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ducampcarlos@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%" alt="footer" />
 
