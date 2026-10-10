@@ -72,6 +72,7 @@ I don't just "ask AI for code": I use **Claude Code** as part of a real engineer
 - Investigating API attack vectors and documenting findings
 - Debugging auth flows (JWT claims, user lookups, roles & permissions)
 - Hardening checks: auth errors, exposed endpoints, MFA gaps
+- Turning that experience into an open-source tool: [SiteCheckup](https://github.com/ducampcarlos/SiteCheckup)
 
 </td>
 </tr>
@@ -147,8 +148,20 @@ flowchart LR
 
 ### 📌 Featured projects
 
+#### ⭐ New: SiteCheckup
+
+> **A polite, passive CLI for the two moments a website is most likely to break: the day after a migration and the day a security report lands.**
+
+- 🔍 **`audit`**: scored 0-100 security and hygiene report with concrete remediation steps
+- 🔀 **`compare`**: validates a migration (missing pages, redirect chains and loops, changed titles and canonicals, `noindex` leftovers, lost headers, slower responses)
+- 🛡️ Passive by design: GET/HEAD only, rate-limited, same-site redirects, and it refuses to run without `--i-have-permission`
+- 🧪 Typed Python 3.11+, tests with no network access, coverage enforced in CI, and a Docker demo lab
+
+[![Repo](https://img.shields.io/badge/View_on_GitHub-SiteCheckup-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ducampcarlos/SiteCheckup)
+
 | Project | What it is | Stack |
 |---|---|---|
+| **[SiteCheckup](https://github.com/ducampcarlos/SiteCheckup)** ⭐ | Passive CLI to audit a live site (31 checks: TLS, headers, cookies, exposed files, WordPress) and to compare an old site against its migrated replacement, URL by URL. Scored reports in HTML/JSON/Markdown, CI-friendly | `Python` `Typer` `httpx` `Docker` |
 | **Liftest** | Game project in active development, built with Claude Code 🎮 | `Game dev` |
 | **[bidcom-frontend-challenge](https://github.com/ducampcarlos/bidcom-frontend-challenge)** | Front-end technical challenge | `Front-end` |
 | **[nimble-challenge](https://github.com/ducampcarlos/nimble-challenge)** | Technical challenge | `Web` |
@@ -165,7 +178,7 @@ flowchart LR
 
 ### 🌱 Now
 
-- 🔭 Working on: *web & server projects for clients, plus a game on the side*
+- 🔭 Working on: *[SiteCheckup](https://github.com/ducampcarlos/SiteCheckup), web & server projects for clients, plus a game on the side*
 - 🤖 Exploring: *MCP servers, agents and automation with Claude Code*
 - 💬 Ask me about: web hosting, WordPress & Laravel security, deployments, SEO audits, API integrations, working with clients and dev teams
 
