@@ -112,7 +112,7 @@ I don't just "ask AI for code": I use **Claude Code** as part of a real engineer
 - Workflows across Gmail, Calendar, Drive and Jira/Confluence connectors
 - Persistent project **memory docs** so Claude keeps context between sessions
 - Skills, hooks and automation around Claude Code itself
-- Open source: [claude-job-hunter](https://github.com/ducampcarlos/claude-job-hunter), a Claude Code workspace built on skills
+- Open source: [claude-ops-mcp](https://github.com/ducampcarlos/claude-ops-mcp), a read-only MCP server for server and website diagnostics, and [claude-job-hunter](https://github.com/ducampcarlos/claude-job-hunter), a Claude Code workspace built on skills
 
 </td>
 </tr>
@@ -163,6 +163,9 @@ flowchart LR
 | Project | What it is | Stack |
 |---|---|---|
 | **[SiteCheckup](https://github.com/ducampcarlos/SiteCheckup)** ⭐ | Passive CLI to audit a live site (31 checks: TLS, headers, cookies, exposed files, WordPress) and to compare an old site against its migrated replacement, URL by URL. Scored reports in HTML/JSON/Markdown, CI-friendly | `Python` `Typer` `httpx` `Docker` |
+| **[claude-ops-mcp](https://github.com/ducampcarlos/claude-ops-mcp)** | Read-only MCP server that lets Claude run real diagnostics (TLS, HTTP, redirects, security headers, DNS, SPF/DKIM/DMARC, sitemaps). SSRF protection with DNS pinning, rate limits, audit log; stdio and HTTP transports, 242 tests | `TypeScript` `MCP` `Security` `Docker` |
+| **[domainwatch](https://github.com/ducampcarlos/domainwatch)** | Self-hosted monitor for expiring certificates, uptime, DNS changes and SPF/DMARC. Dashboard, JSON API, Prometheus metrics and webhooks, with zero runtime dependencies | `TypeScript` `SQLite` `Prometheus` `Docker` |
+| **[rack-defender](https://github.com/ducampcarlos/rack-defender)** | Data-centre tower-defence game for the browser. Deterministic engine balanced with a headless simulator, saves, tests and a real-browser end-to-end suite | `TypeScript` `Canvas` `Playwright` |
 | **[mailcheck](https://github.com/ducampcarlos/mailcheck)** | Passive CLI that checks a domain's email authentication (SPF, DKIM, DMARC, MX, MTA-STS) and gives a score with a concrete fix for each problem | `Python` `DNS` `CI` |
 | **[claude-job-hunter](https://github.com/ducampcarlos/claude-job-hunter)** | Claude Code workspace that prepares tailored job applications (CV, cover letter, interview prep) from your real profile, and never sends anything for you | `Claude Code` `Skills` `Python` |
 | **[packet-catcher](https://github.com/ducampcarlos/packet-catcher)** | Tiny server-themed arcade game for the browser: catch the `200`s, dodge the `500`s. No dependencies | `JavaScript` `Canvas` |
